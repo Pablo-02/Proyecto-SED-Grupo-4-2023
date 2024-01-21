@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TOP_LAVADORA_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TOP_LAVADORA" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="540,030 ps"></ZoomStartTime>
+      <ZoomEndTime time="540,033 ps"></ZoomEndTime>
+      <Cursor1Time time="999,995 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wave_markers>
+      <marker time="999996" label="" />
+   </wave_markers>
+   <wvobject fp_name="/TOP_LAVADORA/boton_inicio" type="logic">
+      <obj_property name="ElementShortName">boton_inicio</obj_property>
+      <obj_property name="ObjectShortName">boton_inicio</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/boton_reset" type="logic">
+      <obj_property name="ElementShortName">boton_reset</obj_property>
+      <obj_property name="ObjectShortName">boton_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/sw_temperatura" type="logic">
+      <obj_property name="ElementShortName">sw_temperatura</obj_property>
+      <obj_property name="ObjectShortName">sw_temperatura</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/sw_velocidad" type="logic">
+      <obj_property name="ElementShortName">sw_velocidad</obj_property>
+      <obj_property name="ObjectShortName">sw_velocidad</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/sw_tiempo_lavado" type="logic">
+      <obj_property name="ElementShortName">sw_tiempo_lavado</obj_property>
+      <obj_property name="ObjectShortName">sw_tiempo_lavado</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/sw_encendido" type="logic">
+      <obj_property name="ElementShortName">sw_encendido</obj_property>
+      <obj_property name="ObjectShortName">sw_encendido</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/led_finalizado" type="logic">
+      <obj_property name="ElementShortName">led_finalizado</obj_property>
+      <obj_property name="ObjectShortName">led_finalizado</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/led_funcionando" type="logic">
+      <obj_property name="ElementShortName">led_funcionando</obj_property>
+      <obj_property name="ObjectShortName">led_funcionando</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/led_encendido" type="logic">
+      <obj_property name="ElementShortName">led_encendido</obj_property>
+      <obj_property name="ObjectShortName">led_encendido</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/led_temperatura" type="logic">
+      <obj_property name="ElementShortName">led_temperatura</obj_property>
+      <obj_property name="ObjectShortName">led_temperatura</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/led_velocidad" type="logic">
+      <obj_property name="ElementShortName">led_velocidad</obj_property>
+      <obj_property name="ObjectShortName">led_velocidad</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/led_tiempo_lavado" type="logic">
+      <obj_property name="ElementShortName">led_tiempo_lavado</obj_property>
+      <obj_property name="ObjectShortName">led_tiempo_lavado</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/bomba_agua" type="logic">
+      <obj_property name="ElementShortName">bomba_agua</obj_property>
+      <obj_property name="ObjectShortName">bomba_agua</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/bomba_detergente" type="logic">
+      <obj_property name="ElementShortName">bomba_detergente</obj_property>
+      <obj_property name="ObjectShortName">bomba_detergente</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/calentador" type="logic">
+      <obj_property name="ElementShortName">calentador</obj_property>
+      <obj_property name="ObjectShortName">calentador</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/motor_rotacion" type="logic">
+      <obj_property name="ElementShortName">motor_rotacion</obj_property>
+      <obj_property name="ObjectShortName">motor_rotacion</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/abrir_sumidero" type="logic">
+      <obj_property name="ElementShortName">abrir_sumidero</obj_property>
+      <obj_property name="ObjectShortName">abrir_sumidero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/leds_temporizador" type="array">
+      <obj_property name="ElementShortName">leds_temporizador[4:0]</obj_property>
+      <obj_property name="ObjectShortName">leds_temporizador[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/seleccion_display" type="array">
+      <obj_property name="ElementShortName">seleccion_display[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seleccion_display[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/leds_display" type="array">
+      <obj_property name="ElementShortName">leds_display[6:0]</obj_property>
+      <obj_property name="ObjectShortName">leds_display[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/sadinicio" type="logic">
+      <obj_property name="ElementShortName">sadinicio</obj_property>
+      <obj_property name="ObjectShortName">sadinicio</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/sadreset" type="logic">
+      <obj_property name="ElementShortName">sadreset</obj_property>
+      <obj_property name="ObjectShortName">sadreset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/sadencendido" type="logic">
+      <obj_property name="ElementShortName">sadencendido</obj_property>
+      <obj_property name="ObjectShortName">sadencendido</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/daminicio" type="logic">
+      <obj_property name="ElementShortName">daminicio</obj_property>
+      <obj_property name="ObjectShortName">daminicio</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/damreset" type="logic">
+      <obj_property name="ElementShortName">damreset</obj_property>
+      <obj_property name="ObjectShortName">damreset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/damencendido" type="logic">
+      <obj_property name="ElementShortName">damencendido</obj_property>
+      <obj_property name="ObjectShortName">damencendido</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/madcodigo_modo" type="array">
+      <obj_property name="ElementShortName">madcodigo_modo[3:0]</obj_property>
+      <obj_property name="ObjectShortName">madcodigo_modo[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_LAVADORA/clk_out" type="logic">
+      <obj_property name="ElementShortName">clk_out</obj_property>
+      <obj_property name="ObjectShortName">clk_out</obj_property>
+   </wvobject>
+</wave_config>
